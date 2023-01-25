@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+}
+
+h1 {
+    color: aqua;
+}
+
+h2,h3 {
+    color: azure;
+}
+
+.btn-restart {
+    position: absolute;
+    top: 300px;
+    left: 45%;
+    background-color: aqua;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.btn-restart:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.board {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.cell {
+    height: 30px;
+    width: 35px;
+}
+
+.car {
+    height: 20px;
+    width: 30px;
+}
+
+.bike {
+    height: 25px;
+    width: 30px;
+}

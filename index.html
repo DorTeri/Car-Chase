@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Crash</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="onInit()" onkeydown="moveGamer(event)">
+    <h1>Car Crash</h1>
+    <h2>Finish line appears in: <span>15</span>s</h2>
+    <h3>Fuel left: <span>70</span></h3>
+        <button hidden class="btn-restart" onclick="restartGame()"><span></span>
+            <br>Play again</button>
+    <div>
+        <table class="board">
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/bike.js"></script>
+    <script src="js/gamer.js"></script>
+</body>
+</html>
